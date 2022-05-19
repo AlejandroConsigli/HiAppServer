@@ -10,4 +10,4 @@ app.listen(PORT, () => {
   console.log(`Server started on port ${PORT}`);
 });
 
-app.use("/api/hi", require("./routes/hi"));
+app.use("/hi", require("./routes/hi"));
